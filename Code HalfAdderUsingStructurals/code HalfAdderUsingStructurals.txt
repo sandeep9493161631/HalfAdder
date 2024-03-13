@@ -1,0 +1,7 @@
+module HalfAdderUsingStructurals(
+    input a,b,
+    output s,c
+    );
+    andgate a1 (.a(a),.b(b),.y(c));
+    xorgate x1 (.a(a),.b(b),.y(s));
+endmodule
